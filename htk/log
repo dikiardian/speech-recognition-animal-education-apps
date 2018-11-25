@@ -1,0 +1,1218 @@
+ WARNING [-2631]  QuestionCommand: No items for question R_Silence
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_Fricative
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_Vowel
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_V-Front
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_V-Central
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_V-Back
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_Strident
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_NonStrident
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_Short
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_Front-Start
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_Fronting
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_High
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_Low
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_Rounded
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_NonAffricate
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_Affricate
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_IVowel
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_EVowel
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_AVowel
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_OVowel
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_Back-Stop
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_Voiced-Fric
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_Unvoiced-Fric
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_Front-Fric
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_Central-Fric
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_Back-Fric
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_aa
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_ae
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_ah
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_ao
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_aw
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_ax
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_ay
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_ch
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_d
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_dd
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_dh
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_dx
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_eh
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_el
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_en
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_er
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_ar
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_ir
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_ur
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_ey
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_f
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_g
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_hh
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_ih
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_iy
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_jh
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_k
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_kd
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_ow
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_oy
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_pd
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_s
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_sh
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_td
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_th
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_ts
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_uh
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_uw
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_v
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_w
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question R_z
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_Silence
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_Vowel
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_V-Front
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_V-Central
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_V-Back
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_NonStrident
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_Short
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_Front-Start
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_Fronting
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_High
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_Low
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_Rounded
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_Affricate
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_IVowel
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_EVowel
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_AVowel
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_OVowel
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_Voiced-Fric
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_Front-Fric
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_Back-Fric
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_aa
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_ae
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_ah
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_ao
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_aw
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_ax
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_ay
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_ch
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_d
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_dd
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_dh
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_dx
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_eh
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_el
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_en
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_er
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_ar
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_ir
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_ur
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_ey
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_f
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_g
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_hh
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_ih
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_iy
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_jh
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_kd
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_ng
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_ow
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_oy
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_pd
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_sh
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_td
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_th
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_ts
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_uh
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_uw
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_v
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_w
+ in HHEd
+ WARNING [-2631]  QuestionCommand: No items for question L_z
+ in HHEd
+
+TB 350.00 ST_ae_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_ae_2_
+ in HHEd
+
+TB 350.00 ST_a_2_ {}
+ Tree based clustering
+ Start   a[2] : 11  have LogL=-77.724 occ=1006.8
+
+ Via     a[2] : 5 gives LogL=-75.419 occ=1006.8
+
+ End     a[2] : 5 gives LogL=-75.419 occ=1006.8
+
+ TB: Stats 11->5 [45.5%]  { 11->5 [45.5%] total }
+
+TB 350.00 ST_c_2_ {}
+ Tree based clustering
+ Start   c[2] : 1  have LogL=-79.873 occ=117.5
+
+ Via     c[2] : 1 gives LogL=-79.873 occ=117.5
+
+ End     c[2] : 1 gives LogL=-79.873 occ=117.5
+
+ TB: Stats 1->1 [100.0%]  { 12->6 [50.0%] total }
+
+TB 350.00 ST_b_2_ {}
+ Tree based clustering
+ Start   b[2] : 1  have LogL=-68.053 occ=57.2
+
+ Via     b[2] : 1 gives LogL=-68.053 occ=57.2
+
+ End     b[2] : 1 gives LogL=-68.053 occ=57.2
+
+ TB: Stats 1->1 [100.0%]  { 13->7 [53.8%] total }
+
+TB 350.00 ST_h_2_ {}
+ Tree based clustering
+ Start   h[2] : 1  have LogL=-80.664 occ=119.1
+
+ Via     h[2] : 1 gives LogL=-80.664 occ=119.1
+
+ End     h[2] : 1 gives LogL=-80.664 occ=119.1
+
+ TB: Stats 1->1 [100.0%]  { 14->8 [57.1%] total }
+
+TB 350.00 ST_i_2_ {}
+ Tree based clustering
+ Start   i[2] : 6  have LogL=-70.446 occ=185.8
+
+ Via     i[2] : 1 gives LogL=-70.446 occ=185.8
+
+ End     i[2] : 1 gives LogL=-70.446 occ=185.8
+
+ TB: Stats 6->1 [16.7%]  { 20->9 [45.0%] total }
+
+TB 350.00 ST_j_2_ {}
+ Tree based clustering
+ Start   j[2] : 1  have LogL=-77.223 occ=69.1
+
+ Via     j[2] : 1 gives LogL=-77.223 occ=69.1
+
+ End     j[2] : 1 gives LogL=-77.223 occ=69.1
+
+ TB: Stats 1->1 [100.0%]  { 21->10 [47.6%] total }
+
+TB 350.00 ST_u_2_ {}
+ Tree based clustering
+ Start   u[2] : 4  have LogL=-84.520 occ=459.0
+
+ Via     u[2] : 2 gives LogL=-83.747 occ=459.0
+
+ End     u[2] : 2 gives LogL=-83.747 occ=459.0
+
+ TB: Stats 4->2 [50.0%]  { 25->12 [48.0%] total }
+
+TB 350.00 ST_ah_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_ah_2_
+ in HHEd
+
+TB 350.00 ST_l_2_ {}
+ Tree based clustering
+ Start   l[2] : 2  have LogL=-73.890 occ=231.0
+
+ Via     l[2] : 1 gives LogL=-73.890 occ=231.0
+
+ End     l[2] : 1 gives LogL=-73.890 occ=231.0
+
+ TB: Stats 2->1 [50.0%]  { 27->13 [48.1%] total }
+
+TB 350.00 ST_ow_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_ow_2_
+ in HHEd
+
+TB 350.00 ST_n_2_ {}
+ Tree based clustering
+ Start   n[2] : 1  have LogL=-89.579 occ=97.9
+
+ Via     n[2] : 1 gives LogL=-89.579 occ=97.9
+
+ End     n[2] : 1 gives LogL=-89.579 occ=97.9
+
+ TB: Stats 1->1 [100.0%]  { 28->14 [50.0%] total }
+
+TB 350.00 ST_d_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_d_2_
+ in HHEd
+
+TB 350.00 ST_aa_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_aa_2_
+ in HHEd
+
+TB 350.00 ST_m_2_ {}
+ Tree based clustering
+ Start   m[2] : 2  have LogL=-75.977 occ=77.1
+
+ Via     m[2] : 1 gives LogL=-75.977 occ=77.1
+
+ End     m[2] : 1 gives LogL=-75.977 occ=77.1
+
+ TB: Stats 2->1 [50.0%]  { 30->15 [50.0%] total }
+
+TB 350.00 ST_z_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_z_2_
+ in HHEd
+
+TB 350.00 ST_ih_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_ih_2_
+ in HHEd
+
+TB 350.00 ST_sh_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_sh_2_
+ in HHEd
+
+TB 350.00 ST_aw_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_aw_2_
+ in HHEd
+
+TB 350.00 ST_ng_2_ {}
+ Tree based clustering
+ Start  ng[2] : 1  have LogL=-61.876 occ=317.2
+
+ Via    ng[2] : 1 gives LogL=-61.876 occ=317.2
+
+ End    ng[2] : 1 gives LogL=-61.876 occ=317.2
+
+ TB: Stats 1->1 [100.0%]  { 31->16 [51.6%] total }
+
+TB 350.00 ST_t_2_ {}
+ Tree based clustering
+ Start   t[2] : 2  have LogL=-89.542 occ=392.6
+
+ Via     t[2] : 1 gives LogL=-89.542 occ=392.6
+
+ End     t[2] : 1 gives LogL=-89.542 occ=392.6
+
+ TB: Stats 2->1 [50.0%]  { 33->17 [51.5%] total }
+
+TB 350.00 ST_k_2_ {}
+ Tree based clustering
+ Start   k[2] : 2  have LogL=-76.822 occ=127.5
+
+ Via     k[2] : 1 gives LogL=-76.822 occ=127.5
+
+ End     k[2] : 1 gives LogL=-76.822 occ=127.5
+
+ TB: Stats 2->1 [50.0%]  { 35->18 [51.4%] total }
+
+TB 350.00 ST_ch_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_ch_2_
+ in HHEd
+
+TB 350.00 ST_iy_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_iy_2_
+ in HHEd
+
+TB 350.00 ST_v_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_v_2_
+ in HHEd
+
+TB 350.00 ST_w_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_w_2_
+ in HHEd
+
+TB 350.00 ST_y_2_ {}
+ Tree based clustering
+ Start   y[2] : 1  have LogL=-86.614 occ=109.1
+
+ Via     y[2] : 1 gives LogL=-86.614 occ=109.1
+
+ End     y[2] : 1 gives LogL=-86.614 occ=109.1
+
+ TB: Stats 1->1 [100.0%]  { 36->19 [52.8%] total }
+
+TB 350.00 ST_uw_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_uw_2_
+ in HHEd
+
+TB 350.00 ST_p_2_ {}
+ Tree based clustering
+ Start   p[2] : 2  have LogL=-76.639 occ=131.5
+
+ Via     p[2] : 1 gives LogL=-76.639 occ=131.5
+
+ End     p[2] : 1 gives LogL=-76.639 occ=131.5
+
+ TB: Stats 2->1 [50.0%]  { 38->20 [52.6%] total }
+
+TB 350.00 ST_er_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_er_2_
+ in HHEd
+
+TB 350.00 ST_eh_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_eh_2_
+ in HHEd
+
+TB 350.00 ST_r_2_ {}
+ Tree based clustering
+ Start   r[2] : 2  have LogL=-71.375 occ=165.4
+
+ Via     r[2] : 1 gives LogL=-71.375 occ=165.4
+
+ End     r[2] : 1 gives LogL=-71.375 occ=165.4
+
+ TB: Stats 2->1 [50.0%]  { 40->21 [52.5%] total }
+
+TB 350.00 ST_f_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_f_2_
+ in HHEd
+
+TB 350.00 ST_g_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_g_2_
+ in HHEd
+
+TB 350.00 ST_s_2_ {}
+ Tree based clustering
+ Start   s[2] : 2  have LogL=-79.399 occ=178.0
+
+ Via     s[2] : 1 gives LogL=-79.399 occ=178.0
+
+ End     s[2] : 1 gives LogL=-79.399 occ=178.0
+
+ TB: Stats 2->1 [50.0%]  { 42->22 [52.4%] total }
+
+TB 350.00 ST_th_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_th_2_
+ in HHEd
+
+TB 350.00 ST_hh_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_hh_2_
+ in HHEd
+
+TB 350.00 ST_ey_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_ey_2_
+ in HHEd
+
+TB 350.00 ST_dh_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_dh_2_
+ in HHEd
+
+TB 350.00 ST_ao_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_ao_2_
+ in HHEd
+
+TB 350.00 ST_ay_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_ay_2_
+ in HHEd
+
+TB 350.00 ST_zh_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_zh_2_
+ in HHEd
+
+TB 350.00 ST_uh_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_uh_2_
+ in HHEd
+
+TB 350.00 ST_oy_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_oy_2_
+ in HHEd
+
+TB 350.00 ST_jh_2_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_jh_2_
+ in HHEd
+
+TB 350.00 ST_sil_2_ {}
+ Tree based clustering
+ Start sil[2] : 1  have LogL=-69.275 occ=414.5
+
+ Via   sil[2] : 1 gives LogL=-69.275 occ=414.5
+
+ End   sil[2] : 1 gives LogL=-69.275 occ=414.5
+
+ TB: Stats 1->1 [100.0%]  { 43->23 [53.5%] total }
+
+TB 350.00 ST_ae_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_ae_3_
+ in HHEd
+
+TB 350.00 ST_a_3_ {}
+ Tree based clustering
+ Start   a[3] : 11  have LogL=-88.835 occ=1175.3
+
+ Via     a[3] : 2 gives LogL=-88.464 occ=1175.3
+
+ End     a[3] : 2 gives LogL=-88.464 occ=1175.3
+
+ TB: Stats 11->2 [18.2%]  { 54->25 [46.3%] total }
+
+TB 350.00 ST_c_3_ {}
+ Tree based clustering
+ Start   c[3] : 1  have LogL=-77.876 occ=78.3
+
+ Via     c[3] : 1 gives LogL=-77.876 occ=78.3
+
+ End     c[3] : 1 gives LogL=-77.876 occ=78.3
+
+ TB: Stats 1->1 [100.0%]  { 55->26 [47.3%] total }
+
+TB 350.00 ST_b_3_ {}
+ Tree based clustering
+ Start   b[3] : 1  have LogL=-61.522 occ=53.0
+
+ Via     b[3] : 1 gives LogL=-61.522 occ=53.0
+
+ End     b[3] : 1 gives LogL=-61.522 occ=53.0
+
+ TB: Stats 1->1 [100.0%]  { 56->27 [48.2%] total }
+
+TB 350.00 ST_h_3_ {}
+ Tree based clustering
+ Start   h[3] : 1  have LogL=-91.196 occ=118.8
+
+ Via     h[3] : 1 gives LogL=-91.196 occ=118.8
+
+ End     h[3] : 1 gives LogL=-91.196 occ=118.8
+
+ TB: Stats 1->1 [100.0%]  { 57->28 [49.1%] total }
+
+TB 350.00 ST_i_3_ {}
+ Tree based clustering
+ Start   i[3] : 6  have LogL=-70.398 occ=192.3
+
+ Via     i[3] : 1 gives LogL=-70.398 occ=192.3
+
+ End     i[3] : 1 gives LogL=-70.398 occ=192.3
+
+ TB: Stats 6->1 [16.7%]  { 63->29 [46.0%] total }
+
+TB 350.00 ST_j_3_ {}
+ Tree based clustering
+ Start   j[3] : 1  have LogL=-70.117 occ=55.8
+
+ Via     j[3] : 1 gives LogL=-70.117 occ=55.8
+
+ End     j[3] : 1 gives LogL=-70.117 occ=55.8
+
+ TB: Stats 1->1 [100.0%]  { 64->30 [46.9%] total }
+
+TB 350.00 ST_u_3_ {}
+ Tree based clustering
+ Start   u[3] : 4  have LogL=-87.281 occ=244.7
+
+ Via     u[3] : 1 gives LogL=-87.281 occ=244.7
+
+ End     u[3] : 1 gives LogL=-87.281 occ=244.7
+
+ TB: Stats 4->1 [25.0%]  { 68->31 [45.6%] total }
+
+TB 350.00 ST_ah_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_ah_3_
+ in HHEd
+
+TB 350.00 ST_l_3_ {}
+ Tree based clustering
+ Start   l[3] : 2  have LogL=-68.887 occ=289.3
+
+ Via     l[3] : 1 gives LogL=-68.887 occ=289.3
+
+ End     l[3] : 1 gives LogL=-68.887 occ=289.3
+
+ TB: Stats 2->1 [50.0%]  { 70->32 [45.7%] total }
+
+TB 350.00 ST_ow_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_ow_3_
+ in HHEd
+
+TB 350.00 ST_n_3_ {}
+ Tree based clustering
+ Start   n[3] : 1  have LogL=-85.743 occ=71.6
+
+ Via     n[3] : 1 gives LogL=-85.743 occ=71.6
+
+ End     n[3] : 1 gives LogL=-85.743 occ=71.6
+
+ TB: Stats 1->1 [100.0%]  { 71->33 [46.5%] total }
+
+TB 350.00 ST_d_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_d_3_
+ in HHEd
+
+TB 350.00 ST_aa_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_aa_3_
+ in HHEd
+
+TB 350.00 ST_m_3_ {}
+ Tree based clustering
+ Start   m[3] : 2  have LogL=-67.175 occ=112.2
+
+ Via     m[3] : 1 gives LogL=-67.175 occ=112.2
+
+ End     m[3] : 1 gives LogL=-67.175 occ=112.2
+
+ TB: Stats 2->1 [50.0%]  { 73->34 [46.6%] total }
+
+TB 350.00 ST_z_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_z_3_
+ in HHEd
+
+TB 350.00 ST_ih_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_ih_3_
+ in HHEd
+
+TB 350.00 ST_sh_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_sh_3_
+ in HHEd
+
+TB 350.00 ST_aw_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_aw_3_
+ in HHEd
+
+TB 350.00 ST_ng_3_ {}
+ Tree based clustering
+ Start  ng[3] : 1  have LogL=-57.491 occ=562.2
+
+ Via    ng[3] : 1 gives LogL=-57.491 occ=562.2
+
+ End    ng[3] : 1 gives LogL=-57.491 occ=562.2
+
+ TB: Stats 1->1 [100.0%]  { 74->35 [47.3%] total }
+
+TB 350.00 ST_t_3_ {}
+ Tree based clustering
+ Start   t[3] : 2  have LogL=-71.599 occ=646.5
+
+ Via     t[3] : 1 gives LogL=-71.599 occ=646.5
+
+ End     t[3] : 1 gives LogL=-71.599 occ=646.5
+
+ TB: Stats 2->1 [50.0%]  { 76->36 [47.4%] total }
+
+TB 350.00 ST_k_3_ {}
+ Tree based clustering
+ Start   k[3] : 2  have LogL=-83.877 occ=99.4
+
+ Via     k[3] : 1 gives LogL=-83.877 occ=99.4
+
+ End     k[3] : 1 gives LogL=-83.877 occ=99.4
+
+ TB: Stats 2->1 [50.0%]  { 78->37 [47.4%] total }
+
+TB 350.00 ST_ch_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_ch_3_
+ in HHEd
+
+TB 350.00 ST_iy_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_iy_3_
+ in HHEd
+
+TB 350.00 ST_v_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_v_3_
+ in HHEd
+
+TB 350.00 ST_w_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_w_3_
+ in HHEd
+
+TB 350.00 ST_y_3_ {}
+ Tree based clustering
+ Start   y[3] : 1  have LogL=-74.146 occ=53.3
+
+ Via     y[3] : 1 gives LogL=-74.146 occ=53.3
+
+ End     y[3] : 1 gives LogL=-74.146 occ=53.3
+
+ TB: Stats 1->1 [100.0%]  { 79->38 [48.1%] total }
+
+TB 350.00 ST_uw_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_uw_3_
+ in HHEd
+
+TB 350.00 ST_p_3_ {}
+ Tree based clustering
+ Start   p[3] : 2  have LogL=-73.251 occ=99.6
+
+ Via     p[3] : 1 gives LogL=-73.251 occ=99.6
+
+ End     p[3] : 1 gives LogL=-73.251 occ=99.6
+
+ TB: Stats 2->1 [50.0%]  { 81->39 [48.1%] total }
+
+TB 350.00 ST_er_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_er_3_
+ in HHEd
+
+TB 350.00 ST_eh_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_eh_3_
+ in HHEd
+
+TB 350.00 ST_r_3_ {}
+ Tree based clustering
+ Start   r[3] : 2  have LogL=-71.767 occ=143.4
+
+ Via     r[3] : 1 gives LogL=-71.767 occ=143.4
+
+ End     r[3] : 1 gives LogL=-71.767 occ=143.4
+
+ TB: Stats 2->1 [50.0%]  { 83->40 [48.2%] total }
+
+TB 350.00 ST_f_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_f_3_
+ in HHEd
+
+TB 350.00 ST_g_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_g_3_
+ in HHEd
+
+TB 350.00 ST_s_3_ {}
+ Tree based clustering
+ Start   s[3] : 2  have LogL=-77.572 occ=203.4
+
+ Via     s[3] : 1 gives LogL=-77.572 occ=203.4
+
+ End     s[3] : 1 gives LogL=-77.572 occ=203.4
+
+ TB: Stats 2->1 [50.0%]  { 85->41 [48.2%] total }
+
+TB 350.00 ST_th_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_th_3_
+ in HHEd
+
+TB 350.00 ST_hh_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_hh_3_
+ in HHEd
+
+TB 350.00 ST_ey_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_ey_3_
+ in HHEd
+
+TB 350.00 ST_dh_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_dh_3_
+ in HHEd
+
+TB 350.00 ST_ao_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_ao_3_
+ in HHEd
+
+TB 350.00 ST_ay_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_ay_3_
+ in HHEd
+
+TB 350.00 ST_zh_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_zh_3_
+ in HHEd
+
+TB 350.00 ST_uh_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_uh_3_
+ in HHEd
+
+TB 350.00 ST_oy_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_oy_3_
+ in HHEd
+
+TB 350.00 ST_jh_3_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_jh_3_
+ in HHEd
+
+TB 350.00 ST_sil_3_ {}
+ Tree based clustering
+ Start sil[3] : 1  have LogL=-75.944 occ=750.0
+
+ Via   sil[3] : 1 gives LogL=-75.944 occ=750.0
+
+ End   sil[3] : 1 gives LogL=-75.944 occ=750.0
+
+ TB: Stats 1->1 [100.0%]  { 86->42 [48.8%] total }
+
+TB 350.00 ST_ae_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_ae_4_
+ in HHEd
+
+TB 350.00 ST_a_4_ {}
+ Tree based clustering
+ Start   a[4] : 11  have LogL=-81.802 occ=1033.8
+
+ Via     a[4] : 3 gives LogL=-81.011 occ=1033.8
+
+ End     a[4] : 3 gives LogL=-81.011 occ=1033.8
+
+ TB: Stats 11->3 [27.3%]  { 97->45 [46.4%] total }
+
+TB 350.00 ST_c_4_ {}
+ Tree based clustering
+ Start   c[4] : 1  have LogL=-63.758 occ=83.2
+
+ Via     c[4] : 1 gives LogL=-63.758 occ=83.2
+
+ End     c[4] : 1 gives LogL=-63.758 occ=83.2
+
+ TB: Stats 1->1 [100.0%]  { 98->46 [46.9%] total }
+
+TB 350.00 ST_b_4_ {}
+ Tree based clustering
+ Start   b[4] : 1  have LogL=-64.108 occ=55.5
+
+ Via     b[4] : 1 gives LogL=-64.108 occ=55.5
+
+ End     b[4] : 1 gives LogL=-64.108 occ=55.5
+
+ TB: Stats 1->1 [100.0%]  { 99->47 [47.5%] total }
+
+TB 350.00 ST_h_4_ {}
+ Tree based clustering
+ Start   h[4] : 1  have LogL=-73.006 occ=300.2
+
+ Via     h[4] : 1 gives LogL=-73.006 occ=300.2
+
+ End     h[4] : 1 gives LogL=-73.006 occ=300.2
+
+ TB: Stats 1->1 [100.0%]  { 100->48 [48.0%] total }
+
+TB 350.00 ST_i_4_ {}
+ Tree based clustering
+ Start   i[4] : 6  have LogL=-78.355 occ=311.0
+
+ Via     i[4] : 3 gives LogL=-75.167 occ=311.0
+
+ End     i[4] : 2 gives LogL=-76.174 occ=311.0
+
+ TB: Stats 6->2 [33.3%]  { 106->50 [47.2%] total }
+
+TB 350.00 ST_j_4_ {}
+ Tree based clustering
+ Start   j[4] : 1  have LogL=-65.519 occ=60.0
+
+ Via     j[4] : 1 gives LogL=-65.519 occ=60.0
+
+ End     j[4] : 1 gives LogL=-65.519 occ=60.0
+
+ TB: Stats 1->1 [100.0%]  { 107->51 [47.7%] total }
+
+TB 350.00 ST_u_4_ {}
+ Tree based clustering
+ Start   u[4] : 4  have LogL=-88.796 occ=579.6
+
+ Via     u[4] : 2 gives LogL=-88.061 occ=579.6
+
+ End     u[4] : 2 gives LogL=-88.061 occ=579.6
+
+ TB: Stats 4->2 [50.0%]  { 111->53 [47.7%] total }
+
+TB 350.00 ST_ah_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_ah_4_
+ in HHEd
+
+TB 350.00 ST_l_4_ {}
+ Tree based clustering
+ Start   l[4] : 2  have LogL=-56.364 occ=623.7
+
+ Via     l[4] : 1 gives LogL=-56.364 occ=623.7
+
+ End     l[4] : 1 gives LogL=-56.364 occ=623.7
+
+ TB: Stats 2->1 [50.0%]  { 113->54 [47.8%] total }
+
+TB 350.00 ST_ow_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_ow_4_
+ in HHEd
+
+TB 350.00 ST_n_4_ {}
+ Tree based clustering
+ Start   n[4] : 1  have LogL=-73.478 occ=68.1
+
+ Via     n[4] : 1 gives LogL=-73.478 occ=68.1
+
+ End     n[4] : 1 gives LogL=-73.478 occ=68.1
+
+ TB: Stats 1->1 [100.0%]  { 114->55 [48.2%] total }
+
+TB 350.00 ST_d_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_d_4_
+ in HHEd
+
+TB 350.00 ST_aa_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_aa_4_
+ in HHEd
+
+TB 350.00 ST_m_4_ {}
+ Tree based clustering
+ Start   m[4] : 2  have LogL=-67.253 occ=188.4
+
+ Via     m[4] : 1 gives LogL=-67.253 occ=188.4
+
+ End     m[4] : 1 gives LogL=-67.253 occ=188.4
+
+ TB: Stats 2->1 [50.0%]  { 116->56 [48.3%] total }
+
+TB 350.00 ST_z_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_z_4_
+ in HHEd
+
+TB 350.00 ST_ih_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_ih_4_
+ in HHEd
+
+TB 350.00 ST_sh_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_sh_4_
+ in HHEd
+
+TB 350.00 ST_aw_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_aw_4_
+ in HHEd
+
+TB 350.00 ST_ng_4_ {}
+ Tree based clustering
+ Start  ng[4] : 1  have LogL=-52.403 occ=1118.1
+
+ Via    ng[4] : 1 gives LogL=-52.403 occ=1118.1
+
+ End    ng[4] : 1 gives LogL=-52.403 occ=1118.1
+
+ TB: Stats 1->1 [100.0%]  { 117->57 [48.7%] total }
+
+TB 350.00 ST_t_4_ {}
+ Tree based clustering
+ Start   t[4] : 2  have LogL=-81.803 occ=432.4
+
+ Via     t[4] : 2 gives LogL=-80.920 occ=432.4
+
+ End     t[4] : 2 gives LogL=-80.920 occ=432.4
+
+ TB: Stats 2->2 [100.0%]  { 119->59 [49.6%] total }
+
+TB 350.00 ST_k_4_ {}
+ Tree based clustering
+ Start   k[4] : 2  have LogL=-90.860 occ=295.1
+
+ Via     k[4] : 1 gives LogL=-90.860 occ=295.1
+
+ End     k[4] : 1 gives LogL=-90.860 occ=295.1
+
+ TB: Stats 2->1 [50.0%]  { 121->60 [49.6%] total }
+
+TB 350.00 ST_ch_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_ch_4_
+ in HHEd
+
+TB 350.00 ST_iy_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_iy_4_
+ in HHEd
+
+TB 350.00 ST_v_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_v_4_
+ in HHEd
+
+TB 350.00 ST_w_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_w_4_
+ in HHEd
+
+TB 350.00 ST_y_4_ {}
+ Tree based clustering
+ Start   y[4] : 1  have LogL=-63.694 occ=66.8
+
+ Via     y[4] : 1 gives LogL=-63.694 occ=66.8
+
+ End     y[4] : 1 gives LogL=-63.694 occ=66.8
+
+ TB: Stats 1->1 [100.0%]  { 122->61 [50.0%] total }
+
+TB 350.00 ST_uw_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_uw_4_
+ in HHEd
+
+TB 350.00 ST_p_4_ {}
+ Tree based clustering
+ Start   p[4] : 2  have LogL=-76.103 occ=168.4
+
+ Via     p[4] : 1 gives LogL=-76.103 occ=168.4
+
+ End     p[4] : 1 gives LogL=-76.103 occ=168.4
+
+ TB: Stats 2->1 [50.0%]  { 124->62 [50.0%] total }
+
+TB 350.00 ST_er_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_er_4_
+ in HHEd
+
+TB 350.00 ST_eh_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_eh_4_
+ in HHEd
+
+TB 350.00 ST_r_4_ {}
+ Tree based clustering
+ Start   r[4] : 2  have LogL=-61.590 occ=458.0
+
+ Via     r[4] : 1 gives LogL=-61.590 occ=458.0
+
+ End     r[4] : 1 gives LogL=-61.590 occ=458.0
+
+ TB: Stats 2->1 [50.0%]  { 126->63 [50.0%] total }
+
+TB 350.00 ST_f_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_f_4_
+ in HHEd
+
+TB 350.00 ST_g_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_g_4_
+ in HHEd
+
+TB 350.00 ST_s_4_ {}
+ Tree based clustering
+ Start   s[4] : 2  have LogL=-70.133 occ=352.4
+
+ Via     s[4] : 1 gives LogL=-70.133 occ=352.4
+
+ End     s[4] : 1 gives LogL=-70.133 occ=352.4
+
+ TB: Stats 2->1 [50.0%]  { 128->64 [50.0%] total }
+
+TB 350.00 ST_th_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_th_4_
+ in HHEd
+
+TB 350.00 ST_hh_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_hh_4_
+ in HHEd
+
+TB 350.00 ST_ey_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_ey_4_
+ in HHEd
+
+TB 350.00 ST_dh_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_dh_4_
+ in HHEd
+
+TB 350.00 ST_ao_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_ao_4_
+ in HHEd
+
+TB 350.00 ST_ay_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_ay_4_
+ in HHEd
+
+TB 350.00 ST_zh_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_zh_4_
+ in HHEd
+
+TB 350.00 ST_uh_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_uh_4_
+ in HHEd
+
+TB 350.00 ST_oy_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_oy_4_
+ in HHEd
+
+TB 350.00 ST_jh_4_ {}
+ Tree based clustering
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_jh_4_
+ in HHEd
+
+TB 350.00 ST_sil_4_ {}
+ Tree based clustering
+ Start sil[4] : 1  have LogL=-55.949 occ=5201.6
+
+ Via   sil[4] : 1 gives LogL=-55.949 occ=5201.6
+
+ End   sil[4] : 1 gives LogL=-55.949 occ=5201.6
+
+ TB: Stats 1->1 [100.0%]  { 129->65 [50.4%] total }
+
+AU ./fulllist
+ Creating HMMset using trees to add unseen triphones
+ AU: 19 Log/19 Phys created from 44 Log/44 Phys
