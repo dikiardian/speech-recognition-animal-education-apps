@@ -1,0 +1,22 @@
+#!/bin/bash
+
+./HParse grammar wdnet
+./HDMan -m -w wlist -n monophones1 -l dlog dict lexicon
+./HLEd -l '*' -d dict -i phones0.mlf mkphones0.led source.mlf
+./HLEd -l '*' -d dict -i phones1.mlf mkphones1.led source.mlf
+./HCopy -C config -S hcopy.scp
+# ./HCompV -C config -f 0.01 -m -S train.scp -M hmm0 proto
+# ./HERest -C config -I phones0.mlf -t 250.0 150.0 1000.0 -S train.scp -H hmm0/macros -H hmm0/hmmdefs -M hmm1 monophones0
+# ./HHEd -H hmm4/macros -H hmm4/hmmdefs -M hmm5 sil.hed monophones1
+# ./HERest -C config  -I phones1.mlf -t 250.0 150.0 3000.0 -S train.scp -H hmm5/macros -H  hmm5/hmmdefs -M hmm6 monophones1
+# ./HERest -C config  -I phones1.mlf -t 250.0 150.0 3000.0 -S train.scp -H hmm6/macros -H  hmm6/hmmdefs -M hmm7 monophones1
+# ./HVite -l '*' -o SWT -b sent-end -C config -H hmm7/macros -H hmm7/hmmdefs -i aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I source.mlf -S train.scp dict monophones1 > HVite_log
+# ./HVite -l '*' -o SWT -b sent-end -C config -H hmm7/macros -H hmm7/hmmdefs -i aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I source.mlf -S train.scp dict monophones1
+# ./HERest -C config -I aligned.mlf -t 250.0 150.0 3000.0 -S train.scp -H hmm7/macros -H hmm7/hmmdefs -M hmm8 monophones1
+# ./HERest -C config -I aligned.mlf -t 250.0 150.0 3000.0 -S train.scp -H hmm8/macros -H hmm8/hmmdefs -M hmm9 monophones1
+# ./HLEd -n triphones1 -l '*' -i wintri.mlf mktri.led aligned.mlf
+# ./HHEd -H hmm9/macros -H hmm9/hmmdefs -M hmm10 mktri.hed monophones1
+# ./HERest -C config -I wintri.mlf -t 250.0 150.0 1000.0 -s stats -S train.scp -H hmm10/macros -H hmm10/hmmdefs -M hmm11 triphones1
+# ./HERest -C config -I wintri.mlf -t 250.0 150.0 1000.0 -s stats -S train.scp -H hmm11/macros -H hmm11/hmmdefs -M hmm12 triphones1
+# ./HVite -C config -H hmm12/macros -H hmm12/hmmdefs -S test.scp -l '*' -i recout.mlf -w wdnet -p 0.0 -s 5.0 dict triphones1
+# ./HResults -I testref.mlf triphones1 recout.mlf
