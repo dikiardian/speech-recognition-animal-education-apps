@@ -20,24 +20,28 @@
         </p>
       </div>
       <div class="container" id="content">
-        <div class="field">
-          <div class="control">
-            <input class="input is-primary is-rounded" type="text" placeholder="Siapakah namamu" id="nama">
-          </div>
-        </div>
-        <div class="field">
-          <div class="control">
-              <input class="input is-primary is-rounded" type="text" placeholder="Masukkan ulasanmu" id="ulasan">
-          </div>
-        </div>
-        <a id="button-process" class="button is-primary is-rounded">Prediksi!</a>
+        <p id="text-state">Klik tombol di bawah dan bertanyalah!</p>
+        <br>
+        <a id="button-record" class="button is-primary is-rounded">
+          <span class="icon is-large">
+            <i class="fas fa-microphone"></i>
+          </span>
+        </a>
+        <a style="display: none;" id="button-stop" class="button is-primary is-rounded">
+          <span class="icon is-large">
+            <i class="fas fa-stop"></i>
+          </span>
+        </a>
       </div>
 
-      <br><br>
+      <br>
+      <br>
+
       <div class="container" id="result">
         <p id="result-text"></p>
       </div>
     </section>
   </body>
   <script src="../static/script.js"></script>
+  <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
 </html>
