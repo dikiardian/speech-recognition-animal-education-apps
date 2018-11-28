@@ -1,4 +1,4 @@
-import subprocess
+from subprocess import call
 import sys, os
 
 def read_from_file(filename):
@@ -17,10 +17,12 @@ def read_from_file(filename):
 	  perintah += tamp + ' '
 
 	perintah = perintah[:-1] # remove last space
-	print(perintah)
+	return perintah
 
 def predict():
-	os.system('cd ../htk; ./HVite -C config -H hmm13/macros -H hmm13/hmmdefs -S test.scp -l * -i recout.mlf -w wdnet -p 0.0 -s 5.0 dict tiedlist')
-	
-	# read result
-	
+	os.system("cd ../htk; ./HCopy -C config -S hcopy-test.scp; ./HVite -C config1 -H hmm12/macros -H hmm12/hmmdefs -S test-wav.scp -l '*' -i recout-wav.mlf -w wdnet -p 0.0 -s 5.0 dict triphones1; ./HResults -I testref.mlf triphones1 recout-wav.mlf")
+	os.system("cd ../htk; ./HCopy -C config -S hcopy-test.scp")
+	os.system("cd ../htk; ./HVite -C config1 -H hmm12/macros -H hmm12/hmmdefs -S test-wav.scp -l '*' -i recout-wav.mlf -w wdnet -p 0.0 -s 5.0 dict triphones1")
+	os.system("cd ../htk; ./HResults -I testref.mlf triphones1 recout-wav.mlf")
+	result = read_from_file('../htk/recout-wav.mlf')
+	return result

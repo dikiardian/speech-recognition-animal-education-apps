@@ -1,5 +1,5 @@
 from flask import Flask, render_template, Response, request, flash, jsonify
-import script.recognition
+import script.recognition as rc
 
 app = Flask(__name__)
 
@@ -10,7 +10,6 @@ def index():
 @app.route('/predict', methods=['POST'])
 def predict():
     input_voice = request.files['audio_data']
-    input_voice.save('static/dump/input_voice.wav')
-
-    # result = recognition.predict()
-    return jsonify({'result' : 'saved'})
+    input_voice.save('htk/test.wav')
+    result = rc.predict()
+    return jsonify({'result' : result})

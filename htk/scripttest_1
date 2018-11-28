@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./HCopy -C config -S hcopy-test.scp

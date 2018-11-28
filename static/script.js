@@ -1,7 +1,3 @@
-
-//webkitURL is deprecated but nevertheless
-URL = window.URL || window.webkitURL;
-    
 var gumStream; //stream from getUserMedia()
 var rec; //Recorder.js object
 var input; //MediaStreamAudioSourceNode we'll be recording
@@ -13,16 +9,12 @@ var audioContext = new AudioContext; //new audio context to help us record
 function startRecording() {
     console.log("recordButton clicked");
  
-    var constraints = { audio: true, video:false }
+    var constraints = { audio: true, video:false };
 
-    $('#button-record').css('display', 'none');
-    $('#button-stop').css('display', 'inline-block');
- 
-    /*
-    We're using the standard promise based getUserMedia()
-    https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia
-    */
- 
+    // change image
+    $('#button-record-img').attr('src', '../static/stop.png');
+    $('#text-state').html('Aku mendengarmu.... <br> Tekan tombol di bawah untuk mendapatkan yang kamu inginkan.');
+
     navigator.mediaDevices.getUserMedia(constraints).then(function(stream) {
         console.log("getUserMedia() success, stream created, initializing Recorder.js ...");
  
@@ -36,18 +28,16 @@ function startRecording() {
         Create the Recorder object and configure to record mono sound (1 channel)
         Recording 2 channels  will double the file size
         */
-        rec = new Recorder(input,{numChannels:1})
+        rec = new Recorder(input,{numChannels:1});
  
         //start the recording process
-        rec.record()
+        rec.record();
  
         console.log("Recording started");
- 
     }).catch(function(err) {
-        //enable the record button if getUserMedia() fails
         alert('Ups, Coba ulangi lagi ya');
-        $('#button-stop').css('display', 'none');
-        $('#button-record').css('display', 'inline-block');
+        $('#button-record-img').attr('src', '../static/microphone.png');
+        $('#text-state').html('Klik tombol di bawah dan katakan apa yang ingin kamu tahu!');
     });
 }
 
@@ -55,8 +45,14 @@ function stopRecording() {
     console.log("stop button clicked");
  
     //disable the stop button, enable the record too allow for new recordings
-    $('#button-stop').css('display', 'none');
-    $('#button-record').css('display', 'inline-block');
+    $('#button-record-img').attr('src', '../static/microphone.png');
+    $('#text-state').html('Aku berfikir dulu ya...');
+    setTimeout(function() {
+        $('#text-state').html('Hmm, susah juga ternyata...');
+    }, 3000);
+    setTimeout(function() {
+        $('#text-state').html('Sepertinya suaramu tadi tidak terlalu jelas...');
+    }, 6000);
 
     
     // $('#button-record').attr('class', 'button is-primary is-rounded is-loading');
@@ -98,20 +94,23 @@ function upload(blob) {
             alert('Ups, Coba ulangi lagi ya');
         },
         complete: function() {
-            $('#button-record').attr('class', 'button is-primary is-rounded');
+            // $('#button-record').attr('class', 'button is-primary is-rounded');
         }
     });
 
 }
 
 $('document').ready(function() {
-    $('#button-record').click(function() {
-        startRecording();
-    });
-
-    $('#button-stop').click(function() {
-        stopRecording();
-        // after click
-        // $('#button-stop').attr('class', 'button is-primary is-rounded is-loading');
+    $('#button-record-img').click(function() {
+        // const text = $('#text-state').html();
+        const src = $('#button-record-img').attr('src');
+        // if (text === "Aku berfikir dulu ya..." || text === "Aku berfikir dulu ya...") {
+        //     return;
+        // }
+        if (src === '../static/microphone.png') {
+            startRecording();
+        } else {
+            stopRecording();
+        }
     });
 });

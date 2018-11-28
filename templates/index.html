@@ -10,36 +10,41 @@
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </head>
   <body class="has-text-centered">
-    <section class="section">
-      <div class="container">
-        <h1 class="title">
-          Mari Mengenal Hewan
-        </h1>
-        <p class="subtitle">
-          Tanyakan padaku tentang <strong>hewan</strong>!
-        </p>
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            MAMAN
+          </h1>
+          <h2 class="subtitle">
+            <!-- Tanyakan padaku tentang <strong>hewan</strong>! -->
+            Mari Mengenal Hewan
+          </h2>
+        </div>
       </div>
-      <div class="container" id="content">
-        <p id="text-state">Klik tombol di bawah dan bertanyalah!</p>
-        <br>
-        <a id="button-record" class="button is-primary is-rounded">
+    </section>
+    <section id="main-content">
+      <div id="content" class="container">
+        <p id="text-state" style="font-size: 18px; padding: 16px;">Klik tombol di bawah dan katakan apa yang ingin kamu tahu!</p>
+        <figure class="image is-96x96" id="button-record" style="display: block; margin: 0 auto; cursor: pointer; z-index: 10;">
+          <img id="button-record-img" src="../static/microphone.png">
+        </figure>
+        <!-- <a id="button-record" class="button is-primary is-rounded">
           <span class="icon is-large">
             <i class="fas fa-microphone"></i>
           </span>
-        </a>
-        <a style="display: none;" id="button-stop" class="button is-primary is-rounded">
+        </a> -->
+        <!-- <a style="display: none;" id="button-stop" class="button is-primary is-rounded">
           <span class="icon is-large">
             <i class="fas fa-stop"></i>
           </span>
-        </a>
+        </a> -->
       </div>
-
-      <br>
-      <br>
-
-      <div class="container" id="result">
-        <p id="result-text"></p>
-      </div>
+    </section>
+    <section id="bottom-image" style="position: absolute; bottom: 0; z-index: 1; left: 0; right: 0; margin: 0 auto;">
+      <figure class="image">
+        <img src="../static/animals-bg.png">
+      </figure>
     </section>
   </body>
   <script src="../static/script.js"></script>

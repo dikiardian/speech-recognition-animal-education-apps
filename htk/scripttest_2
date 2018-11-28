@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./HVite -C config1 -H hmm12/macros -H hmm12/hmmdefs -S test-wav.scp -l '*' -i recout-wav.mlf -w wdnet -p 0.0 -s 5.0 dict triphones1
+./HResults -I testref.mlf triphones1 recout-wav.mlf
