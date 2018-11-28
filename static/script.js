@@ -1,3 +1,10 @@
+var audioAnjing = new Audio('../static/suara-anjing.mp3');
+var audioAyam = new Audio('../static/suara-ayam.mp3');
+var audioKambing = new Audio('../static/suara-kambing.mp3');
+var audioKucing = new Audio('../static/suara-kucing.mp3');
+var audioSapi = new Audio('../static/suara-sapi.mp3');
+var audioUlar = new Audio('../static/suara-ular.mp3');
+
 var gumStream; //stream from getUserMedia()
 var rec; //Recorder.js object
 var input; //MediaStreamAudioSourceNode we'll be recording
@@ -47,15 +54,7 @@ function stopRecording() {
     //disable the stop button, enable the record too allow for new recordings
     $('#button-record-img').attr('src', '../static/microphone.png');
     $('#text-state').html('Aku berfikir dulu ya...');
-    // setTimeout(function() {
-    //     $('#text-state').html('Hmm, susah juga ternyata...');
-    // }, 3000);
-    // setTimeout(function() {
-    //     $('#text-state').html('Sepertinya suaramu tadi tidak terlalu jelas...');
-    // }, 6000);
-    
 
-    
     // $('#button-record').attr('class', 'button is-primary is-rounded is-loading');
  
     rec.stop();
@@ -90,22 +89,58 @@ function getResult(data) {
     } else if (data.includes('apa itu anjing')) {
         $('#modal-text-title').html('Anjing');
         $('#modal-text-content').html('Anjing adalah ...');
+        $('#modal-text').attr('class', 'modal is-active');
     } else if (data.includes('apa itu ayam')) {
         $('#modal-text-title').html('Ayam');
         $('#modal-text-content').html('Ayam adalah ...');
+        $('#modal-text').attr('class', 'modal is-active');
     } else if (data.includes('apa itu kambing')) {
         $('#modal-text-title').html('Kambing');
         $('#modal-text-content').html('Kambing adalah ...');
+        $('#modal-text').attr('class', 'modal is-active');
     } else if (data.includes('apa itu kucing')) {
         $('#modal-text-title').html('Kucing');
         $('#modal-text-content').html('Kucing adalah ...');
+        $('#modal-text').attr('class', 'modal is-active');
     } else if (data.includes('apa itu Sapi')) {
         $('#modal-text-title').html('Sapi');
         $('#modal-text-content').html('Sapi adalah ...');
+        $('#modal-text').attr('class', 'modal is-active');
     } else if (data.includes('apa itu ular')) {
         $('#modal-text-title').html('Ular');
         $('#modal-text-content').html('Ular adalah ...');
-    }
+        $('#modal-text').attr('class', 'modal is-active');
+    } else if (data.includes('suara anjing')) {
+        $('#modal-text-title').html('Suara Anjing');
+        $('#modal-text-content').html('Dengarkan suara ini... <br> <a class="button is-primary" onclick="audioAnjing.play()">Putar lagi</a> ');
+        $('#modal-text').attr('class', 'modal is-active');
+        audioAnjing.play();
+    } else if (data.includes('suara ayam')) {
+        $('#modal-text-title').html('Suara Ayam');
+        $('#modal-text-content').html('Dengarkan suara ini... <br> <a class="button is-primary" onclick="audioAyam.play()">Putar lagi</a> ');
+        $('#modal-text').attr('class', 'modal is-active');
+        audioAyam.play();
+    } else if (data.includes('suara kambing')) {
+        $('#modal-text-title').html('Suara Kambing');
+        $('#modal-text-content').html('Dengarkan suara ini... <br> <a class="button is-primary" onclick="audioKambing.play()">Putar lagi</a> ');
+        $('#modal-text').attr('class', 'modal is-active');
+        audioKambing.play();
+    } else if (data.includes('suara kucing')) {
+        $('#modal-text-title').html('Suara Kucing');
+        $('#modal-text-content').html('Dengarkan suara ini... <br> <a class="button is-primary" onclick="audioKucing.play()">Putar lagi</a> ');
+        $('#modal-text').attr('class', 'modal is-active');
+        audioKucing.play();
+    } else if (data.includes('suara Sapi')) {
+        $('#modal-text-title').html('Suara Sapi');
+        $('#modal-text-content').html('Dengarkan suara ini... <br> <a class="button is-primary" onclick="audioSapi.play()">Putar lagi</a> ');
+        $('#modal-text').attr('class', 'modal is-active');
+        audioSapi.play();
+    } else if (data.includes('suara ular')) {
+        $('#modal-text-title').html('Suara Ular');
+        $('#modal-text-content').html('Dengarkan suara ini... <br> <a class="button is-primary" onclick="audioUlar.play()">Putar lagi</a> ');
+        $('#modal-text').attr('class', 'modal is-active');
+        audioUlar.play();
+    } 
     
     $('#text-state').html('Klik tombol di bawah dan katakan apa yang ingin kamu tahu!');
 }
@@ -124,8 +159,13 @@ function upload(blob) {
         processData: false,  // tell jQuery not to process the data
         contentType: false,  // tell jQuery not to set contentType
         success : function(data) {
-            $('#text-state').html('Aku mendengar darimu : <strong>'+ data.result +'</strong> <br> Tunggu...');
-
+            $('#text-state').html('Aku mendengar darimu : <strong>'+ data.result +'</strong> <br> Tunggu.');
+            setTimeout(function() {
+                $('#text-state').html('Aku mendengar darimu : <strong>'+ data.result +'</strong> <br> Tunggu..');
+            }, 700);
+            setTimeout(function() {
+                $('#text-state').html('Aku mendengar darimu : <strong>'+ data.result +'</strong> <br> Tunggu...');
+            }, 1400);
             setTimeout(function() {
                 getResult(data.result);
             }, 2000);
@@ -139,18 +179,11 @@ function upload(blob) {
             // $('#button-record').attr('class', 'button is-primary is-rounded');
         }
     });
-
 }
-
-
 
 $('document').ready(function() {
     $('#button-record-img').click(function() {
-        // const text = $('#text-state').html();
         const src = $('#button-record-img').attr('src');
-        // if (text === "Aku berfikir dulu ya..." || text === "Aku berfikir dulu ya...") {
-        //     return;
-        // }
         if (src === '../static/microphone.png') {
             startRecording();
         } else {
