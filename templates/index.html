@@ -29,18 +29,31 @@
         <figure class="image is-96x96" id="button-record" style="display: block; margin: 0 auto; cursor: pointer; z-index: 10;">
           <img id="button-record-img" src="../static/microphone.png">
         </figure>
-        <!-- <a id="button-record" class="button is-primary is-rounded">
-          <span class="icon is-large">
-            <i class="fas fa-microphone"></i>
-          </span>
-        </a> -->
-        <!-- <a style="display: none;" id="button-stop" class="button is-primary is-rounded">
-          <span class="icon is-large">
-            <i class="fas fa-stop"></i>
-          </span>
-        </a> -->
       </div>
     </section>
+    <div class="modal" id="modal-image">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <p class="image is-4by3">
+          <img id="modal-image-dom" src="../static/anjing.jpg" alt="">
+        </p>
+      </div>
+      <button id="modal-image-close" class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <div class="modal" id="modal-text">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title" id="modal-text-title">
+            <!-- title -->
+          </p>
+          <button id="modal-text-close" class="delete" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body" id="modal-text-content">
+          <!-- Content ... -->
+        </section>
+      </div>
+    </div>
     <section id="bottom-image" style="position: absolute; bottom: 0; z-index: 1; left: 0; right: 0; margin: 0 auto;">
       <figure class="image">
         <img src="../static/animals-bg.png">

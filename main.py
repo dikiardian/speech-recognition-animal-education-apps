@@ -1,5 +1,5 @@
 from flask import Flask, render_template, Response, request, flash, jsonify
-import script.recognition as rc
+import htk.recognition as rc
 
 app = Flask(__name__)
 

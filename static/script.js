@@ -47,12 +47,13 @@ function stopRecording() {
     //disable the stop button, enable the record too allow for new recordings
     $('#button-record-img').attr('src', '../static/microphone.png');
     $('#text-state').html('Aku berfikir dulu ya...');
-    setTimeout(function() {
-        $('#text-state').html('Hmm, susah juga ternyata...');
-    }, 3000);
-    setTimeout(function() {
-        $('#text-state').html('Sepertinya suaramu tadi tidak terlalu jelas...');
-    }, 6000);
+    // setTimeout(function() {
+    //     $('#text-state').html('Hmm, susah juga ternyata...');
+    // }, 3000);
+    // setTimeout(function() {
+    //     $('#text-state').html('Sepertinya suaramu tadi tidak terlalu jelas...');
+    // }, 6000);
+    
 
     
     // $('#button-record').attr('class', 'button is-primary is-rounded is-loading');
@@ -65,6 +66,48 @@ function stopRecording() {
     //create the wav blob and pass it
     rec.exportWAV(upload);
 
+}
+
+function getResult(data) {
+    if (data.includes('lihat anjing')){
+        $('#modal-image-dom').attr('src','../static/anjing.jpg');
+        $('#modal-image').attr('class', 'modal is-active');
+    } else if (data.includes('lihat ayam')) {
+        $('#modal-image-dom').attr('src','../static/ayam.jpg');
+        $('#modal-image').attr('class', 'modal is-active');
+    } else if (data.includes('lihat kambing')) {
+        $('#modal-image-dom').attr('src','../static/kambing.jpg');
+        $('#modal-image').attr('class', 'modal is-active');
+    } else if (data.includes('lihat kucing')) {
+        $('#modal-image-dom').attr('src','../static/kucing.jpg');
+        $('#modal-image').attr('class', 'modal is-active');
+    } else if (data.includes('lihat sapi')) {
+        $('#modal-image-dom').attr('src','../static/sapi.jpg');
+        $('#modal-image').attr('class', 'modal is-active');
+    } else if (data.includes('lihat ular')) {
+        $('#modal-image-dom').attr('src','../static/ular.jpg');
+        $('#modal-image').attr('class', 'modal is-active');
+    } else if (data.includes('apa itu anjing')) {
+        $('#modal-text-title').html('Anjing');
+        $('#modal-text-content').html('Anjing adalah ...');
+    } else if (data.includes('apa itu ayam')) {
+        $('#modal-text-title').html('Ayam');
+        $('#modal-text-content').html('Ayam adalah ...');
+    } else if (data.includes('apa itu kambing')) {
+        $('#modal-text-title').html('Kambing');
+        $('#modal-text-content').html('Kambing adalah ...');
+    } else if (data.includes('apa itu kucing')) {
+        $('#modal-text-title').html('Kucing');
+        $('#modal-text-content').html('Kucing adalah ...');
+    } else if (data.includes('apa itu Sapi')) {
+        $('#modal-text-title').html('Sapi');
+        $('#modal-text-content').html('Sapi adalah ...');
+    } else if (data.includes('apa itu ular')) {
+        $('#modal-text-title').html('Ular');
+        $('#modal-text-content').html('Ular adalah ...');
+    }
+    
+    $('#text-state').html('Klik tombol di bawah dan katakan apa yang ingin kamu tahu!');
 }
 
 function upload(blob) {
@@ -81,24 +124,25 @@ function upload(blob) {
         processData: false,  // tell jQuery not to process the data
         contentType: false,  // tell jQuery not to set contentType
         success : function(data) {
-            // $('#result').css('display', 'block');
-            // $('.rate-off').css('display', 'inline-block');
-            // $('.rate-on').css('display', 'none');
-            // for (var i=1; i<=data.rating; i++) {
-            //     console.log('masuk');
-            //     $('#rate'+ i + '-off').css('display', 'none');
-            //     $('#rate'+ i + '-on').css('display', 'inline-block');
-            // }
+            $('#text-state').html('Aku mendengar darimu : <strong>'+ data.result +'</strong> <br> Tunggu...');
+
+            setTimeout(function() {
+                getResult(data.result);
+            }, 2000);
         },
         error: function() {
             alert('Ups, Coba ulangi lagi ya');
+            $('#text-state').html('Klik tombol di bawah dan katakan apa yang ingin kamu tahu!');
         },
         complete: function() {
+            // $('#text-state').html('Klik tombol di bawah dan katakan apa yang ingin kamu tahu!');
             // $('#button-record').attr('class', 'button is-primary is-rounded');
         }
     });
 
 }
+
+
 
 $('document').ready(function() {
     $('#button-record-img').click(function() {
@@ -112,5 +156,13 @@ $('document').ready(function() {
         } else {
             stopRecording();
         }
+    });
+
+    $('#modal-image-close').click(function() {
+        $('#modal-image').attr('class', 'modal');
+    });
+
+    $('#modal-text-close').click(function() {
+        $('#modal-text').attr('class', 'modal');
     });
 });
