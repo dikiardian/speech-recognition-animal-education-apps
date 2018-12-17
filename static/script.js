@@ -88,27 +88,27 @@ function getResult(data) {
         $('#modal-image').attr('class', 'modal is-active');
     } else if (data.includes('apa itu anjing')) {
         $('#modal-text-title').html('Anjing');
-        $('#modal-text-content').html('Anjing adalah ...');
+        $('#modal-text-content').html('Anjing adalah mamalia yang telah mengalami domestikasi dari serigala sejak 15.000 tahun yang lalu atau mungkin sudah sejak 100.000 tahun yang lalu berdasarkan bukti genetik berupa penemuan fosil dan tes DNA.');
         $('#modal-text').attr('class', 'modal is-active');
     } else if (data.includes('apa itu ayam')) {
         $('#modal-text-title').html('Ayam');
-        $('#modal-text-content').html('Ayam adalah ...');
+        $('#modal-text-content').html('Ayam adalah hewan aves atau unggas. bernafas dengan paru paru, tudak bisa terbang, memiliki paruh, memiliki 2 kaki yg fungsinya untuk mengais tanah agar bisa mencari makanan.');
         $('#modal-text').attr('class', 'modal is-active');
     } else if (data.includes('apa itu kambing')) {
         $('#modal-text-title').html('Kambing');
-        $('#modal-text-content').html('Kambing adalah ...');
+        $('#modal-text-content').html('Kambing adalah salah satu jenis ternak penghasil daging dan susu yang sudah lama dikenal petani dan memiliki potensi sebagai komponen usaha tani yang penting di berbagai agri-ekosistem.');
         $('#modal-text').attr('class', 'modal is-active');
     } else if (data.includes('apa itu kucing')) {
         $('#modal-text-title').html('Kucing');
-        $('#modal-text-content').html('Kucing adalah ...');
+        $('#modal-text-content').html('Kucing adalah sejenis mamalia karnivora dari keluarga Felidae. ... Kucing juga memiliki sebutan kucing domestik atau kucing rumah (Nama Ilmiah Kucing yaitu Felis silvestris catus atau Felis Catus) merupakan nama latin kucing.');
         $('#modal-text').attr('class', 'modal is-active');
     } else if (data.includes('apa itu Sapi')) {
         $('#modal-text-title').html('Sapi');
-        $('#modal-text-content').html('Sapi adalah ...');
+        $('#modal-text-content').html('Sapi adalah hewan ternak anggota suku Bovidae dan anak suku Bovinae. Sapi yang telah dikebiri dan biasanya digunakan untuk membajak sawah dinamakan Lembu. Sapi dipelihara terutama untuk dimanfaatkan susu dan dagingnya sebagai pangan manusia.');
         $('#modal-text').attr('class', 'modal is-active');
     } else if (data.includes('apa itu ular')) {
         $('#modal-text-title').html('Ular');
-        $('#modal-text-content').html('Ular adalah ...');
+        $('#modal-text-content').html('Ular adalah reptilia tak berkaki yang bertubuh panjang. Ular memiliki sisik seperti kadal dan sama-sama digolongkan ke dalam reptil bersisik (Squamata). Perbedaannya adalah kadal pada umumnya berkaki, memiliki lubang telinga, dan kelopak mata yang dapat dibuka tutup.');
         $('#modal-text').attr('class', 'modal is-active');
     } else if (data.includes('suara anjing')) {
         $('#modal-text-title').html('Suara Anjing');
