@@ -1,2 +1,0 @@
-$hewan = kambing | kucing | ayam | sapi | ular | anjing;
-( sent-start ( ( suara | lihat ) <$hewan> | apa itu <$hewan> ) sent-end ) 
