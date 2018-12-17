@@ -30,7 +30,9 @@ function startRecording() {
  
         /* use the stream */
         input = audioContext.createMediaStreamSource(stream);
- 
+        resampler = new Resampler(44100, 16000);
+        input.connect(resampler);
+        resampler.connect(audio_context.destination);
         /* 
         Create the Recorder object and configure to record mono sound (1 channel)
         Recording 2 channels  will double the file size

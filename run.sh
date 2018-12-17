@@ -2,4 +2,4 @@
 # uncomment below for first installation
 # pip install -r requirements.txt
 
-FLASK_APP=main.py flask run --host=0.0.0.0
+FLASK_APP=main.py flask run --host=127.0.0.1
